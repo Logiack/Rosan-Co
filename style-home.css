@@ -1,0 +1,98 @@
+body {    
+  font-family: "Jaro", sans-serif;
+}
+
+header {
+    background: linear-gradient(#000,#0a8bc7);
+    background-size: cover;
+    padding: 80px 0;
+    
+}
+
+.cajaTitulo {
+    width: 940px;
+    position: relative;
+    margin: 0px auto;
+}
+
+.cajaTitulo h1 a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    cursor: context-menu;
+}
+.cajaTitulo h1 a:hover{
+    font-size: 37px;
+}
+
+nav {
+    position: absolute;
+    right: 0;
+    top: 50px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 10px;    
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+nav a:hover {
+    text-decoration:underline;
+    color: #000000;
+    font-size: 24px;
+}
+
+main {
+    background: url(imagenes/freepik__upload__12675.jpeg);
+    background-size: contain;
+}
+
+.principal {
+    padding: 100px 0;
+    width: 740px;
+    margin: 0 auto;
+}
+
+.principal h2 {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.mapa {
+    padding: 3em 0;
+}
+
+.mapa h3 {
+    margin: 0 0 2em;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    color: #ffffff;
+}
+
+.mapa-contenido {
+    width: 940px;
+    margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding: 40px;
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px;
+}
